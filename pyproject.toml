@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pony-express"
+version = "0.1.0"
+description = ""
+authors = ["your_name <your@email>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "0.108.0"
+uvicorn = "0.25.0"
+pytest = "7.4.0"
+httpx = "0.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
